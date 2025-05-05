@@ -20,7 +20,7 @@ df[['Angola', 'Kosovo']].plot()
 The output was as follows;
 ![Capture](https://github.com/user-attachments/assets/e064d9f5-d091-4581-adfb-03a319b0b25c)
 
-I noted that the plot had some issues with x and x plots. So, I decided to change the y plot to something readable by converting the data into millions using the following c ommands. First, I changed the data into int because it was in a format that could not be converted into millions directly by dividing the values.
+I noted that the plot had some issues with x and y plots. So, I decided to change the y plot to something readable by converting the data into millions using the following c ommands. First, I changed the data into int because it was in a format that could not be converted into millions directly by dividing the values.
 angola = df[['Angola']].astype(int)
 kosovo = df['Kosovo'].astype(int)
 After converting the data into int, I used the folowing commands
