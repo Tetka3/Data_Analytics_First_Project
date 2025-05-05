@@ -30,3 +30,9 @@ Next, I created new columns for Kosovo and Angola data as follows.
 df['angola_data'] = angola_data
 df['kosovo_data'] = kosovo_data
 
+Then I ploted the data
+df[['angola_data', 'kosovo_data']].plot()
+And the output was as follows.
+![Capture2](https://github.com/user-attachments/assets/b3305b50-c46c-45f6-bfc0-f60488360e79)
+
+
