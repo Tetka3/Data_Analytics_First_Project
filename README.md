@@ -4,6 +4,8 @@
 In this project, I want to answer the following questions.
 1. What are the most demanded jobs in USA
 2. How does the population growth of Kosovo compare with population growth of Angola?
+3. What are the top 10 countries with the highest population growth rate?
+   
 # Tools I Used
 Throughout the data analysis process, I used the following tools.
 1. Python: The larger part of the analysis was based on my analysis skills in python.
