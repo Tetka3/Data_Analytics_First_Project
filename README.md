@@ -22,19 +22,32 @@ df[['Angola', 'Kosovo']].plot()
 The output was as follows;
 ![Capture](https://github.com/user-attachments/assets/e064d9f5-d091-4581-adfb-03a319b0b25c)
 
-I noted that the plot had some issues with x and y plots. So, I decided to change the y plot to something readable by converting the data into millions using the following c ommands. First, I changed the data into int because it was in a format that could not be converted into millions directly by dividing the values.
+I noted that the plot had some issues with x and y plots. So, I decided to change the y plot to something readable by converting the data into millions using the following c ommands. 
+
+First, I changed the data into int because it was in a format that could not be converted into millions directly by dividing the values.
+
 angola = df[['Angola']].astype(int)
+
 kosovo = df['Kosovo'].astype(int)
-After converting the data into int, I used the folowing commands
+
+After converting the data into int, I used the following commands
+
 angola_data = angola/10**6
+
 kosovo_data = kosovo/10**6
+
 Next, I created new columns for Kosovo and Angola data as follows.
+
 df['angola_data'] = angola_data
+
 df['kosovo_data'] = kosovo_data
 
 Then I ploted the data
+
 df[['angola_data', 'kosovo_data']].plot()
+
 And the output was as follows.
+
 ![Capture2](https://github.com/user-attachments/assets/b3305b50-c46c-45f6-bfc0-f60488360e79)
 
 
